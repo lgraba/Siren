@@ -65,6 +65,13 @@ header {
 nav {
 	float: right;
 	a {
+		@media only screen and (max-width: 660px) {
+			float: left;
+			display: block;
+			width: 90%;
+			margin-left: 0;
+			margin-bottom: 0.5rem;
+		}
 		margin-left: 1.5rem;
 		line-height: 2;
 		color: #9B9B9B;

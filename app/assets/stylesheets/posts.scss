@@ -5,11 +5,23 @@
 #post_show {
 	padding-top: 2rem;
 	.post_image_description {
+		@media only screen and (max-width: 1400px) {
+			width: 70%;
+		}
+		@media only screen and (max-width: 850px) {
+			width: 100%;
+		}
 		width: 50%;
 		float: left;
 		margin-right: 5%;
 	}
 	.post_data {
+		@media only screen and (max-width: 1400px) {
+			width: 25%;
+		}
+		@media only screen and (max-width: 850px) {
+			width: 100%;
+		}
 		width: 15%;
 		float: left;
 		.button {
@@ -36,9 +48,24 @@
 		}
 	}
 	#random_post {
+		@media only screen and (max-width: 1400px) {
+			width: 25%;
+			margin-top: 1rem;
+			margin-left: 0;
+		}
+		@media only screen and (max-width: 1200px) {
+			width: 70%;
+			margin-top: 1rem;
+			margin-left: 0;
+		}
+		@media only screen and (max-width: 850px) {
+			width: 100%;
+			margin-top: 1rem;
+			margin-left: 0;
+		}
 		width: 25%;
 		margin-left: 5%;
-		margin-top: -3.2rem;
+		margin-top: -4.3rem;
 		float: left;
 		h3 {
 			font-size: 1rem;
@@ -112,7 +139,10 @@
 
 #comments {
 	padding-bottom: 4rem;
-	width: 50%;
+	@media only screen and (max-width: 1200px) {
+		width: 100%;
+	}
+	width: 70%;
 	.comment_count {
 		border-bottom: 1px solid #E9E9E9;
 		padding-bottom: 0.5rem;

@@ -75,6 +75,11 @@ nav {
 	}
 }
 
+.notice, .alert {
+	text-align: center;
+	color: #969696;
+}
+
 @import 'home.css.scss';
 @import 'posts.scss';
 @import 'forms.scss';
